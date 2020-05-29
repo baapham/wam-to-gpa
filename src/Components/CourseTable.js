@@ -86,8 +86,7 @@ export const CourseTable = () => {
       })}
       <button onClick={addRow}>Add a course</button>
       <button onClick={calculateGPA}>Calculate GPA</button>
-      <br />
-      {GPA}
+      <p>Your GPA: {GPA}</p>
     </div>
   );
 };
