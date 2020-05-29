@@ -12,7 +12,7 @@ export const CourseTable = () => {
       {
         key,
         mark: 0,
-        uoc: 0,
+        uoc: 6,
       },
     ];
     setKey(key + 1);
@@ -39,7 +39,6 @@ export const CourseTable = () => {
         fail += uoc;
       }
     }
-    console.log((4 * distinction + 3 * credit + 2 * pass) / uocCompleted);
     setGPA((4 * distinction + 3 * credit + 2 * pass) / uocCompleted);
   };
 
